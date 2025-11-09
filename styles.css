@@ -1,0 +1,25 @@
+/*
+This file is for your custom CSS.
+Tailwind is handling most of the styling via the CDN.
+
+You can add any custom styles here that are not easily
+achieved with Tailwind's utility classes.
+
+Example:
+.custom-gradient {
+    background: linear-gradient(to right, #2F5D62, #5E8B7E);
+}
+*/
+
+/* Base body styles (already set by Tailwind config, but good to have) */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #4A4A4A; /* --color-warm-gray */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure images with object-cover work well */
+img {
+    display: block;
+}
